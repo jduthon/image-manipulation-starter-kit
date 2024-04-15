@@ -1,0 +1,17 @@
+{
+  "name": "image-manipulation-starter-kit",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "vite",
+    "start:https": "vite --config vite.https.config.js"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-basic-ssl": "^1.1.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.0"
+  }
+}
